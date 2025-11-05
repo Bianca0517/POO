@@ -85,24 +85,24 @@ namespace AulaClasse
 
         //4-
 
-        public double valor1;
-        public double valor2;
-        public double valor3;
-        public double raio;
+        public double Valor1;
+        public double Valor2;
+        public double Valor3;
+        public double Raio;
 
         public void AreaRetangulo()
         {
-            double areaRetangulo = valor1 * valor2;
+            double areaRetangulo = Valor1 * Valor2;
             Console.WriteLine("Área do rêtangulo :" + areaRetangulo);
         }
         public void AreaQuadrado()
         {
-            double areaQuadrado = valor3 * valor3;
+            double areaQuadrado = Valor3 * Valor3;
             Console.WriteLine("Área do quadrado: " + areaQuadrado);
         }
         public void AreaCirculo()
         {
-            double areaCirculo = 3.14 * (raio * raio);
+            double areaCirculo = 3.14 * (Raio * Raio);
             Console.WriteLine("Área do círculo: " + areaCirculo);
         }
 
@@ -123,16 +123,58 @@ namespace AulaClasse
             Console.WriteLine($"Nome da escola que o professor(a): {NomeDaEscola}");
         }
 
-        public double nota1;
-        public double nota2;
-        public double nota3;
-        public double nota4;
+        public double Nota1;
+        public double Nota2;
+        public double Nota3;
+        public double Nota4;
         public string NomeDoAluno;
 
-        public void Media()
+        public void Media(double nota1, double nota2, double nota3, double nota4)
         {
+            double media = (nota1 + nota2 + nota3 + nota4) / 4;
 
+            Console.WriteLine($"Nome do aluno: {NomeDoAluno}");
+            Console.WriteLine("Média do aluno: " + media);
         }
 
+        //6-
+
+        public string NomeColaborador;
+        public int IdadeColaborador;
+        public string Escolaridade;
+        public string Cpf;
+        public string Rg;
+
+        public void InformacoesColaborador()
+        {
+            Console.WriteLine($"Nome do colaborador: {NomeColaborador}");
+            Console.WriteLine($"Idade: {IdadeColaborador}");
+            Console.WriteLine($"Escolaridade: {Escolaridade}");
+            Console.WriteLine($"CPF: {Cpf}");
+            Console.WriteLine($"RG: {Rg}");
+        }
+
+        public double Salario;
+
+        public void SalarioColaborador(double salario)
+        {
+            if(Salario <= 1000)
+            {
+                double aumento25 = Salario * 1.25;
+                Console.WriteLine($"Novo salário com o aumento de 25%: {aumento25} ");
+            }
+            else if(Salario <= 3000)
+            {
+                double aumento10 = Salario * 1.10;
+                Console.WriteLine($"Novo salário com o aumento de 10%: {aumento10}");
+            }
+            else
+            {
+                double aumento5 = Salario * 1.05;
+                Console.WriteLine($"Novo salário com o aumento de 5%: {aumento5}");
+            }
+        }
+
+        
     }
 }

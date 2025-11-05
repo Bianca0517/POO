@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aluno.cs" />
+    <Compile Include="Aluno2.cs" />
+    <Compile Include="Aluno3.cs" />
     <Compile Include="Biblioteca.cs" />
     <Compile Include="Cachorro.cs" />
     <Compile Include="Carro.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="ContaBancaria.cs" />
     <Compile Include="Empresario.cs" />
     <Compile Include="Escola.cs" />
     <Compile Include="Estudante.cs" />
@@ -56,6 +59,7 @@
     <Compile Include="Livros.cs" />
     <Compile Include="Metodos.cs" />
     <Compile Include="MetodosSenai.cs" />
+    <Compile Include="Moeda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

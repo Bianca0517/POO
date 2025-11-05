@@ -114,21 +114,21 @@ namespace AulaClasse
             //jogador.Correr(20, "Murilo");
 
             // Métodos
-            //Metodos metodos = new Metodos();
+            // Metodos metodos = new Metodos();
             //metodos.Somar(10, 10, 10);
 
-            //Multiplicar 
+            //Multiplicar
             //int resultado = metodos.Multiplicar(10, 20);
 
-            //if(resultado > 100) 
+            //if (resultado > 100)
             //{
-            //  Console.WriteLine($"O valor {resultado} é maior que 100");
+            //    Console.WriteLine($"O valor {resultado} é maior que 100");
             //}
 
-            // Par ou Ímpar
+            //Par ou Ímpar
             //metodos.Multiplicar(10, 20);
 
-            // Quando for método com return precisa de uma variável para armazenar o valor
+            //Quando for método com return precisa de uma variável para armazenar o valor
             //string numero = metodos.Dividir();
             //Console.WriteLine(numero);
 
@@ -149,8 +149,8 @@ namespace AulaClasse
 
 
 
-            // Atividade 1- Cadastro do usuário
-            MetodosSenai metodosSenai = new MetodosSenai();
+            //Atividade 1 - Cadastro do usuário
+            //MetodosSenai metodosSenai = new MetodosSenai();
             //Console.WriteLine("Digite o seu nome");
             //metodosSenai.Nome = Console.ReadLine();
 
@@ -200,42 +200,152 @@ namespace AulaClasse
             //metodosSenai.Estudar();
 
 
+
             // Atividade 4- Áreas
             //Console.WriteLine("Digite a medida da base do retângulo");
-            //metodosSenai.valor1 = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Valor1 = Convert.ToDouble(Console.ReadLine());
 
             //Console.WriteLine("Digite a medida da altura do retângulo");
-            //metodosSenai.valor2 = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Valor2 = Convert.ToDouble(Console.ReadLine());
 
             //Console.WriteLine("Digite a medida de um dos lados do quadrado");
-            //metodosSenai.valor3 = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Valor3 = Convert.ToDouble(Console.ReadLine());
 
             //Console.WriteLine("Digite o raio do círculo");
-            //metodosSenai.raio = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Raio = Convert.ToDouble(Console.ReadLine());
 
             //metodosSenai.AreaRetangulo();
             //metodosSenai.AreaQuadrado();
             //metodosSenai.AreaCirculo();
 
 
+
             // Atividade 5- Professor
-            Console.WriteLine("Digite o nome do professor(a)");
-            metodosSenai.NomeProfessor = Console.ReadLine();
+            //Console.WriteLine("Digite o nome do professor");
+            //metodosSenai.NomeProfessor = Console.ReadLine();
 
-            Console.WriteLine("Digite a idade do professor(a)");
-            metodosSenai.IdadeProfessor = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite a idade do professor");
+            //metodosSenai.IdadeProfessor = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Digite a matéria que o professor(a) leciona");
-            metodosSenai.Materia = Console.ReadLine();
+            //Console.WriteLine("Digite a matéria que o professor leciona");
+            //metodosSenai.Materia = Console.ReadLine();
 
-            Console.WriteLine("Digite a cidade do professor(a)");
-            metodosSenai.CidadeDoProfessor = Console.ReadLine();
+            //Console.WriteLine("Digite a cidade do professor");
+            //metodosSenai.CidadeDoProfessor = Console.ReadLine();
 
-            Console.WriteLine("Digite o nome da escola que o professor(a) trabalha");
-            metodosSenai.NomeDaEscola = Console.ReadLine();
+            //Console.WriteLine("Digite o nome da escola que o professor trabalha");
+            //metodosSenai.NomeDaEscola = Console.ReadLine();
 
-            metodosSenai.Professor();
+            //metodosSenai.Professor();
 
+            //Console.WriteLine("Digite o nome do aluno");
+            //metodosSenai.NomeDoAluno = Console.ReadLine();
+
+            //Console.WriteLine("Digite a primeira nota do aluno");
+            //double nota1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Digite a segunda nota do aluno");
+            //double nota2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Digite a terceira nota do aluno");
+            //double nota3 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Digite a quarta nota do aluno");
+            //double nota4 = Convert.ToDouble(Console.ReadLine());
+
+            //metodosSenai.Media(nota1, nota2, nota3, nota4);
+
+
+
+            // Atividade 6- Salário do colaborador
+            //Console.WriteLine("Digite o nome do colaborador");
+            //metodosSenai.NomeColaborador = Console.ReadLine();
+
+            //Console.WriteLine("Digite a idade do colaborador");
+            //metodosSenai.IdadeColaborador = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Digite a escolaridade do colaborador");
+            //metodosSenai.Escolaridade = Console.ReadLine();
+
+            //Console.WriteLine("Digite o CPF do colaborador");
+            //metodosSenai.Cpf = Console.ReadLine();
+
+            //Console.WriteLine("Digite o RG do colaborador");
+            //metodosSenai.Rg = Console.ReadLine();
+
+            //metodosSenai.InformacoesColaborador();
+
+            //Console.WriteLine("Digite o salário do colaborador");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+
+            //metodosSenai.SalarioColaborador(salario);
+
+
+
+            // Atividade 7- Moeda
+            //Moeda moeda = new Moeda();
+            //Console.WriteLine("Digite um valor em Real para ser convertido á Dolár");
+            //double valorReal = Convert.ToDouble(Console.ReadLine());
+            //moeda.ConversaoParaDolar(valorReal);
+
+            //Console.WriteLine("Digite um valor em Dolár para ser convertido á Real");
+            //double valorDolar = Convert.ToDouble(Console.ReadLine());
+            //moeda.ConversaoParaReal(valorDolar);
+
+            //Console.WriteLine("Digite um valor em Real para ser convertido á Euro");
+            //double valorReal2 = Convert.ToDouble(Console.ReadLine());
+            //moeda.ConversaoParaEuro(valorReal2);
+
+
+
+            //Atividade 8- Conta bancária
+            //ContaBancaria contaBancaria = new ContaBancaria();
+            //Console.WriteLine("Digite o nome do titular da conta");
+            //contaBancaria.NomeTitular = Console.ReadLine();
+
+            //Console.WriteLine("Digite o valor do seu saldo atual");
+            //contaBancaria.SaldoAtual = Convert.ToDouble(Console.ReadLine());
+
+            //while (contaBancaria.SaldoAtual < 0)
+            //{
+            //    Console.WriteLine("Digite o valor do seu saldo atual");
+            //    contaBancaria.SaldoAtual = Convert.ToDouble(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Digite o valor do seu depósito");
+            //double valor = Convert.ToDouble(Console.ReadLine());
+            //contaBancaria.Depositar(valor);
+
+            //Console.WriteLine("Digite o valor do seu saque");
+            //double valorSacar = Convert.ToDouble(Console.ReadLine());
+            //contaBancaria.Sacar(valorSacar);
+
+            //contaBancaria.ExibirInformacoes();
+
+
+
+            //Atividade 9- Aluno
+            Aluno2 aluno2 = new Aluno2();
+            double nota1 = 10;
+            double nota2 = 7;
+            double nota3 = 5;
+            double nota4 = 6;
+            double nota5 = 8;
+
+
+
+            double total = aluno2.SomarNotas(nota1, nota2, nota3, nota4, nota5);
+
+            Console.WriteLine($"Soma total das notas: {total}");
+
+            string media = aluno2.CalcularMedia(total);
+            Console.WriteLine($"Média: {media}");
+
+
+
+            //double media = aluno2.SomarNotas(10, 7, 5, 6, 8);
+
+            //aluno2.CalcularMedia();
 
         }
     }
