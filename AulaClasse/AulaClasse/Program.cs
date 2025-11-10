@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,108 @@ namespace AulaClasse
     {
         static void Main(string[] args)
         {
+            // Instância Pessoa
+            //Pessoa1 pessoa1 = new Pessoa1();
+            //pessoa1.ApresentarPessoa();
+
+            //Instância Aluno
+            //Aluno4 aluno4 = new Aluno4();   
+            //aluno4.ApresentarAluno();
+
+            //Instância Professor
+            //Professor professor = new Professor();
+            //professor.ApresentarProfessor();
+
+
+            //Instância Empregado
+            Empregado empregado = new Empregado();
+            Console.WriteLine("Digite o valor do seu salário");
+            double salario = Convert.ToDouble(Console.ReadLine());
+            double novoSalario = empregado.CalcularSalario(salario);
+
+            empregado.CalcularAlimentacao();
+
+            empregado.nome = "Aurora";
+            empregado.idade = 25;
+            empregado.setor = "Administração";
+            empregado.Cpf = "467.473.096-76";
+            empregado.Rg = "55.442.488-0";
+            empregado.Departamento = "Administrativo";
+
+            Console.WriteLine("Nome: " + empregado.nome);
+            Console.WriteLine("Idade: " + empregado.idade);
+            Console.WriteLine("Setor: " + empregado.setor);
+            Console.WriteLine("CPF: " + empregado.Cpf);
+            Console.WriteLine("RG: " + empregado.Rg);
+
+
+            // Instância Gerente
+            Gerente1 gerente1 = new Gerente1();
+            gerente1.nome = "Livia";
+            gerente1.idade = 25;
+            gerente1.setor = "Financeiro";
+            gerente1.Cpf = "467.473.096-76";
+            gerente1.Rg = "55.442.488-0";
+            gerente1.Departamento = "Financeiro";
+            gerente1.Salario = 5000.00;
+            gerente1.Area = "Finanças";
+
+            Console.WriteLine("Nome: " + gerente1.nome);
+            Console.WriteLine("Idade: " + gerente1.idade);
+            Console.WriteLine("Setor: " + gerente1.setor);
+            Console.WriteLine("CPF: " + gerente1.Cpf);
+            Console.WriteLine("RG: " + gerente1.Rg);
+            Console.WriteLine("Departamento: " + gerente1.Departamento);
+            Console.WriteLine("Salario: " + gerente1.Salario);
+            Console.WriteLine("Área: " + gerente1.Area);
+
+            gerente1.CalcularAlimentacao();
+            gerente1.CalcularSalario(gerente1.Salario);
+
+
+
+
+            // Instância do objeto Estagiário
+            //Estagiario estagiario = new Estagiario();
+            //Console.WriteLine("Digite o valor do seu salário");
+            //double salario = Convert.ToDouble(Console.ReadLine());  
+
+            //estagiario.CalcularValeAlimentacao(salario);
+            //estagiario.CalcularImposto(salario);
+
+
+            //Instâcia do objeto Gerente
+            //Gerente gerente = new Gerente();
+            //Console.WriteLine("Digite o valor do seu salário");
+            //double salarioG = Convert.ToDouble(Console.ReadLine());
+
+            //gerente.CalcularValeAlimentacao(salarioG);
+            //gerente.CalcularImposto(salarioG);
+
+
+
+            //Pessoa pessoa = new Pessoa();
+
+            //PessoaPF pessoaPF = new PessoaPF();
+            //pessoaPF.cpf = "6589023615";
+            //Console.WriteLine(pessoaPF.cpf);
+
+            //PessoaPJ pessoaPJ = new PessoaPJ();
+            //pessoaPJ.cnpj = "98533461231678";
+            //Console.WriteLine(pessoaPJ.cnpj);
+
+
+            //Animal animal = new Animal();
+            // Gato gato = new Gato();
+
+
+            //Aluno3 aluno3 = new Aluno3();
+            //aluno3.Cpf = "0000";
+
+            //Console.WriteLine(aluno3.Cpf);
+
+
+
             // Instância do objeto Aluno
             //Aluno aluno = new Aluno();
             //aluno.nome = "Bianca";
@@ -325,27 +428,25 @@ namespace AulaClasse
 
 
             //Atividade 9- Aluno
-            Aluno2 aluno2 = new Aluno2();
-            double nota1 = 10;
-            double nota2 = 7;
-            double nota3 = 5;
-            double nota4 = 6;
-            double nota5 = 8;
+            //Aluno2 aluno2 = new Aluno2();
+            //double nota1 = 10;
+            //double nota2 = 7;
+            //double nota3 = 5;
+            //double nota4 = 6;
+            //double nota5 = 8;
+
+            //double total = aluno2.SomarNotas(nota1, nota2, nota3, nota4, nota5);
+
+            //Console.WriteLine($"Soma total das notas: {total}");
+
+            //string media = aluno2.CalcularMedia(total);
+            //Console.WriteLine($"Média: {media}");
 
 
 
-            double total = aluno2.SomarNotas(nota1, nota2, nota3, nota4, nota5);
-
-            Console.WriteLine($"Soma total das notas: {total}");
-
-            string media = aluno2.CalcularMedia(total);
-            Console.WriteLine($"Média: {media}");
+            // 
 
 
-
-            //double media = aluno2.SomarNotas(10, 7, 5, 6, 8);
-
-            //aluno2.CalcularMedia();
 
         }
     }

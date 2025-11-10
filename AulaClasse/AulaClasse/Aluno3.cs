@@ -8,14 +8,31 @@ namespace AulaClasse
 {
     public class Aluno3
     {
-        public string Nome;
-        public int Idade;
-        public double Peso;
-        public double Altura;
+        public string nome;
+        public int idade;
+        public double peso;
+        public double altura;
 
         //Privados encapsulamento
-        private string Cpf;
-        private string Rg;
-        private string NumeroCelular;
+        private string cpf = "00000";
+        private string rg;
+        private string numeroCelular;
+
+        //Propriedade Get e Set
+        //Get = Obter
+        //Set = Definir
+
+        //Exclusivo para atributos privados
+        public string Cpf
+        {
+            get
+            {
+                return cpf;
+            }
+            set
+            {
+                cpf = value;
+            }
+        }
     }
 }
