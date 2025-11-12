@@ -13,6 +13,54 @@ namespace AulaClasse
     {
         static void Main(string[] args)
         {
+            // Instância Professor
+            //Professor2 professor2 = new Professor2();
+            //Console.WriteLine("Digite o valor do seu sálario");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("O valor do seu salário líquido após o desconto de 18% é de:" + professor2.CalcularSalario(salario));
+
+            // Instância Coordenador
+            //Coordenador coordenador = new Coordenador();
+            //Console.WriteLine("Digite o valor do seu sálario");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("O valor do seu salário líquido após o desconto de 11% é de:" + coordenador.CalcularSalario(salario));
+
+
+            // Instância Diretor
+            //Diretor diretor = new Diretor();
+            //Console.WriteLine("Digite o valor do seu sálario");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("O valor do seu salário líquido após o desconto de 23% é de:" + diretor.CalcularSalario(salario));
+
+
+            // Instância Conta Poupança
+            //Poupanca poupanca = new Poupanca();
+            //Console.WriteLine("Digite o valor do saque que deseja realizar");
+            //double valorSaque = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Valor líquido após o saque realizado com um imposto de 6% é de:" + poupanca.CalcularImposto(valorSaque));
+
+
+            // Instância Conta Corrente
+            //Corrente corrente = new Corrente();
+            //Console.WriteLine("Digite o valor do saque que deseja realizar");
+            //double valorSaque = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Valor líquido após o saque realizado com um imposto de 15% é de:" + corrente.CalcularImposto(valorSaque));
+
+
+            // Instância Sistema de Veículos
+            //Veiculo veiculo = new Veiculo();
+            //veiculo.ValorCombustivel();
+            //veiculo.CalcularTotal();
+
+            // Instância Moto
+            //Moto moto = new Moto();
+            //moto.ValorCombustivel();
+            //moto.CalcularTotal();
+
+            // --------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
             // Instância Pessoa
             //Pessoa1 pessoa1 = new Pessoa1();
             //pessoa1.ApresentarPessoa();
@@ -27,49 +75,51 @@ namespace AulaClasse
 
 
             //Instância Empregado
-            Empregado empregado = new Empregado();
-            Console.WriteLine("Digite o valor do seu salário");
-            double salario = Convert.ToDouble(Console.ReadLine());
-            double novoSalario = empregado.CalcularSalario(salario);
+            //Empregado empregado = new Empregado();
+            //Console.WriteLine("Digite o valor do seu salário");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //double novoSalario = empregado.CalcularSalario(salario);
 
-            empregado.CalcularAlimentacao();
+            //empregado.CalcularAlimentacao();
 
-            empregado.nome = "Aurora";
-            empregado.idade = 25;
-            empregado.setor = "Administração";
-            empregado.Cpf = "467.473.096-76";
-            empregado.Rg = "55.442.488-0";
-            empregado.Departamento = "Administrativo";
+            //empregado.nome = "Aurora";
+            //empregado.idade = 25;
+            //empregado.setor = "Administração";
+            //empregado.Cpf = "467.473.096-76";
+            //empregado.Rg = "55.442.488-0";
+            //empregado.Departamento = "Administrativo";
 
-            Console.WriteLine("Nome: " + empregado.nome);
-            Console.WriteLine("Idade: " + empregado.idade);
-            Console.WriteLine("Setor: " + empregado.setor);
-            Console.WriteLine("CPF: " + empregado.Cpf);
-            Console.WriteLine("RG: " + empregado.Rg);
+            //Console.WriteLine("Nome: " + empregado.nome);
+            //Console.WriteLine("Idade: " + empregado.idade);
+            //Console.WriteLine("Setor: " + empregado.setor);
+            //Console.WriteLine("CPF: " + empregado.Cpf);
+            //Console.WriteLine("RG: " + empregado.Rg);
 
 
             // Instância Gerente
-            Gerente1 gerente1 = new Gerente1();
-            gerente1.nome = "Livia";
-            gerente1.idade = 25;
-            gerente1.setor = "Financeiro";
-            gerente1.Cpf = "467.473.096-76";
-            gerente1.Rg = "55.442.488-0";
-            gerente1.Departamento = "Financeiro";
-            gerente1.Salario = 5000.00;
-            gerente1.Area = "Finanças";
+            //Gerente1 gerente1 = new Gerente1();
+            //gerente1.nome = "Livia";
+            //gerente1.idade = 25;
+            //gerente1.setor = "Financeiro";
+            //gerente1.Cpf = "467.473.096-76";
+            //gerente1.Rg = "55.442.488-0";
+            //gerente1.Departamento = "Financeiro";
+            //gerente1.Salario = 5000.00;
+            //gerente1.Area = "Finanças";
 
-            Console.WriteLine("Nome: " + gerente1.nome);
-            Console.WriteLine("Idade: " + gerente1.idade);
-            Console.WriteLine("Setor: " + gerente1.setor);
-            Console.WriteLine("CPF: " + gerente1.Cpf);
-            Console.WriteLine("RG: " + gerente1.Rg);
-            Console.WriteLine("Departamento: " + gerente1.Departamento);
-            Console.WriteLine("Salario: " + gerente1.Salario);
-            Console.WriteLine("Área: " + gerente1.Area);
+            //Console.WriteLine("Nome: " + gerente1.nome);
+            //Console.WriteLine("Idade: " + gerente1.idade);
+            //Console.WriteLine("Setor: " + gerente1.setor);
+            //Console.WriteLine("CPF: " + gerente1.Cpf);
+            //Console.WriteLine("RG: " + gerente1.Rg);
+            //Console.WriteLine("Departamento: " + gerente1.Departamento);
+            //Console.WriteLine("Salario: " + gerente1.Salario);
+            //Console.WriteLine("Área: " + gerente1.Area);
 
-            gerente1.CalcularAlimentacao();
-            gerente1.CalcularSalario(gerente1.Salario);
+            //gerente1.CalcularAlimentacao();
+            //gerente1.CalcularSalario(gerente1.Salario);
+
+            //-------------------------------------------------------------------------------------------------------------------------------------------//
 
 
 
@@ -248,7 +298,7 @@ namespace AulaClasse
             //metodos.Subtrair(3);
 
 
-
+            //-------------------------------------------------------------------------------------------------------------------------------------//
 
 
 
@@ -441,11 +491,6 @@ namespace AulaClasse
 
             //string media = aluno2.CalcularMedia(total);
             //Console.WriteLine($"Média: {media}");
-
-
-
-            // 
-
 
 
         }
